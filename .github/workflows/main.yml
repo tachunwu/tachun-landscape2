@@ -1,15 +1,1 @@
-name: Tachun Landscape build and deploy
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
-jobs:
-  build-landscape:
-    uses: cncf/landscape2-sites/.github/workflows/build-and-deploy.yml@main
-    with:
-      foundation: tachun-landscape
-      repository: tachunwu/tachun-landscape2
-    secrets: inherit
