@@ -1,0 +1,367 @@
+landscape:
+  - category:
+    name: Materials
+    subcategories:
+      - subcategory:
+        name: Courses
+        items:
+          - item:
+            description: Basic database concepts and principles by Andy Pavlo
+            homepage_url: https://15445.courses.cs.cmu.edu/fall2023/schedule.html
+            logo: cmudb.svg
+            name: CMU 15-445/645 Database Systems
+            # project: graduated
+            repo_url: https://github.com/cmu-db/bustub
+            twitter: https://twitter.com/andy_pavlo
+          - item:
+            description: 6.5840 is a core 12-unit graduate subject with lectures, readings, programming labs, an optional project, a mid-term exam, and a final exam. It will present abstractions and implementation techniques for engineering distributed systems. Major topics include fault tolerance, replication, and consistency. Much of the class consists of studying and discussing case studies of distributed systems.
+            homepage_url: https://pdos.csail.mit.edu/6.824/schedule.html
+            logo: mit.svg
+            name: Distributed Systems
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            description: fast.ai Making neural nets uncool again
+            homepage_url: https://course.fast.ai/
+            logo: fastai.svg
+            name: fast.ai
+            # project: graduated
+            repo_url: https://github.com/fastai/fastai
+            twitter: https://twitter.com/fastdotai?s=20
+          - item:
+            description: This self-paced course will discuss the major ideas used today in the implementation of programming language compilers, including lexical analysis, parsing, syntax-directed translation, abstract syntax trees, types and type checking, intermediate languages, dataflow analysis, program optimization, code generation, and runtime systems. As a result, you will learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines. Along the way we will also touch on how programming languages are designed, programming language semantics, and why there are so many different kinds of programming languages.
+            homepage_url: https://www.edx.org/learn/computer-science/stanford-university-compilers
+            logo: stanford.svg
+            name: Stanford Compilers
+          - item:
+            description: Reinforcement Learning by David Silver
+            homepage_url: https://www.davidsilver.uk/teaching/
+            logo: deepmind.svg
+            name: RL Course by David Silver
+            # project: graduated
+            twitter: https://twitter.com/GoogleDeepMind
+      - subcategory:
+        name: Documents
+        items:
+          - item:
+            description: This is the description of item 4
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Database Internals
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+  - category:
+    name: Research
+    subcategories:
+      - subcategory:
+        name: Distributed Systems
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: TAO
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Databases
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Calvin
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+
+  - category:
+    name: Go
+    subcategories:
+      - subcategory:
+        name: HTTP Framework
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 6
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 7
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 7
+            # project: sandbox
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            description: This is the description of item 8
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 8
+      - subcategory:
+        name: ORM
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Item 9
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+  - category:
+    name: Databases
+    subcategories:
+      - subcategory:
+        name: Transactional
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Postgres
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: CockroachDB
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 7
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Vitess
+            # project: sandbox
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            description: This is the description of item 8
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: YugabyteDB
+      - subcategory:
+        name: Analytical
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: DuckDB
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Key-Value
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: BadgerDB
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Graph
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Dgraph
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Column Family
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: ScyllaDB  
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: ML
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: qdrant
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+  - category:
+    name: Infrastructure
+    subcategories:
+      - subcategory:
+        name: Orchestration & Management
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Kubernetes
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Service Mesh
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Istio
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Storage
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: MinIO
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Coordination & Service Discovery
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: etcd
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Streaming & Messaging
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: NATS
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Runtime
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Kata Containers  
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Monitoring
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Prometheus
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Tracing
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Jaeger
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Logging
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Loki
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: CI/CD
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Argo
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+  - category:
+    name: Selected Projects
+    subcategories:
+      - subcategory:
+        name: ML
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: CNCF LLM
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Re-create
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: N3
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Swift
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: Apple Swift
+            # project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      
