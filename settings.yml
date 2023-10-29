@@ -127,6 +127,7 @@ groups:
     categories:
       - Materials
       - Databases
+      - Taste
       - Go
       - Research
       - Infrastructure

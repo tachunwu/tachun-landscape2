@@ -77,7 +77,199 @@ landscape:
             name: Calvin
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
-
+  - category:
+    name: Taste
+    subcategories:
+      - subcategory:
+        name: ML
+        items:
+          - item:
+            name: Haystack
+            description: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: SaaS
+        items:
+          - item:
+            name: Supabase
+            description: Supabase is an open source Firebase alternative.Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+            homepage_url: https://supabase.com/
+            logo: cncf.svg
+            repo_url: https://github.com/supabase/supabase
+          - item:
+            name: PocketBase
+            description: Open Source realtime backend in 1 file
+            homepage_url: https://pocketbase.io/
+            logo: cncf.svg
+            repo_url: https://github.com/pocketbase/pocketbase
+          - item:
+            name: Fingerprint
+            description: Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.
+            homepage_url: https://fingerprint.com/
+            logo: cncf.svg
+            repo_url: https://github.com/fingerprintjs/fingerprintjs/
+          - item:
+            name: rocket.chat
+            description: The communications platform that puts data protection first.
+            homepage_url: https://www.rocket.chat/
+            logo: cncf.svg
+            repo_url: https://github.com/RocketChat/Rocket.Chat
+      - subcategory:
+        name: Engineering
+        items:
+          - item:
+            name: ReadytSet
+            description: ReadySet is a lightweight SQL cache that enhances the performance and scalability of your DB without any code changes.
+            homepage_url: https://readyset.io/
+            logo: cncf.svg
+            repo_url: https://github.com/readysettech/readyset
+          - item:
+            name: Jitsu
+            description: Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days.
+            homepage_url: https://temporal.io/
+            logo: cncf.svg
+            repo_url: https://github.com/jitsucom/jitsu
+          - item:
+            name: Temporal
+            description: Temporal is an open source programming model that can simplify your code, make your applications more reliable, and help you deliver more features faster.
+            homepage_url: https://temporal.io/
+            logo: cncf.svg
+            repo_url: https://github.com/temporalio/temporal
+          - item:
+            name: cube
+            description: Cube — The Semantic Layer for Building Data Applications
+            homepage_url: https://cube.dev/
+            logo: cncf.svg
+            repo_url: https://github.com/cube-js/cube
+          - item:
+            name: NOCODB
+            description: 🔥 🔥 🔥 Open Source Airtable Alternative
+            homepage_url: https://nocodb.com/
+            logo: cncf.svg
+            repo_url: https://github.com/nocodb/nocodb
+          - item:
+            name: appsmith
+            description: Platform to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
+            homepage_url: https://www.appsmith.com/
+            logo: cncf.svg
+            repo_url: https://github.com/appsmithorg/appsmith
+          - item:
+            name: openobserve
+            description: 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance, 🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces).
+            homepage_url: https://openobserve.ai/
+            logo: cncf.svg
+            repo_url: https://github.com/openobserve/openobserve
+          - item:
+            name: GrowthBook
+            description: Open Source Feature Flagging and A/B Testing Platform
+            homepage_url: https://www.growthbook.io/
+            logo: cncf.svg
+            repo_url: https://github.com/openobserve/openobserve
+          - item:
+            name: Mermaid Chart
+            description: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
+            homepage_url: https://www.mermaidchart.com/
+            logo: cncf.svg
+            repo_url: https://github.com/mermaid-js/mermaid
+          - item:
+            name: ToolJet
+            description: Create custom internal tools quickly and easily, with less code and fewer resources. Boost productivity, cut costs, and deploy your tools faster, all while ensuring enterprise-grade security.
+            homepage_url: https://www.tooljet.com/
+            logo: cncf.svg
+            repo_url: https://github.com/ToolJet/ToolJet
+          - item:
+            name: Acron
+            description: A simple application deployment framework built on Kubernetes
+            homepage_url: https://docs.acorn.io/
+            logo: cncf.svg
+            repo_url: https://github.com/acorn-io/runtime
+          - item:
+            name: Dagster
+            description: An orchestration platform for the development, production, and observation of data assets.
+            homepage_url: https://dagster.io/
+            logo: cncf.svg
+            repo_url: https://github.com/acorn-io/runtime
+      - subcategory:
+        name: Static Site Generator
+        items:
+          - item:
+            name: Astro
+            description: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: Svelte
+            description: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: Docusaurus
+            description: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: NEXT.JS
+            description: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: Hugo
+            description: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Application
+        items:
+          - item:
+            name: OPENBB
+            description: Investment Research for Everyone, Everywhere.
+            homepage_url: https://my.openbb.co/app/terminal
+            logo: cncf.svg
+            repo_url: https://github.com/OpenBB-finance/OpenBBTerminal
+          - item:
+            name: Spacedrive
+            description: Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
+            homepage_url: https://www.spacedrive.com/
+            logo: cncf.svg
+            repo_url: https://github.com/spacedriveapp/spacedrive
+      - subcategory:
+        name: Community
+        items:
+          - item:
+            name: FOREM
+            description: Forem is an open source platform for building modern, independent, and safe communities.
+            homepage_url: https://www.forem.com/
+            logo: cncf.svg
+            repo_url: https://github.com/forem/forem
+          - item:
+            name: Discourse
+            description: A platform for community discussion. Free, open, simple.
+            homepage_url: https://www.discourse.org/
+            logo: cncf.svg
+            repo_url: https://github.com/discourse/discourse
+      - subcategory:
+        name: CMS
+        items:
+          - item:
+            name: strapi
+            description: 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable and developer-first.
+            homepage_url: https://strapi.io/
+            logo: cncf.svg
+            repo_url: https://github.com/strapi/strapi
+            
   - category:
     name: Go
     subcategories:
@@ -125,37 +317,81 @@ landscape:
         name: Transactional
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 6
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Postgres
-            # project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            name: PostgreSQL
+            homepage_url: https://www.postgresql.org/
+            repo_url: https://github.com/postgres/postgres
+            logo: postgre-sql.svg
+            crunchbase: https://www.crunchbase.com/organization/postgresql
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 6
-            homepage_url: https://cncf.io
-            logo: cncf.svg
             name: CockroachDB
-            # project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            homepage_url: https://www.cockroachlabs.com/
+            repo_url: https://github.com/cockroachdb/cockroach
+            logo: cockroach-labs.svg
+            twitter: https://twitter.com/CockroachDB
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 7
-            homepage_url: https://cncf.io
-            logo: cncf.svg
             name: Vitess
-            # project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            description: MySQL-compatible, horizontally scalable, cloud-native database solution.
+            homepage_url: https://vitess.io/
+            repo_url: https://github.com/vitessio/vitess
+            additional_repos:
+              - repo_url: https://github.com/vitessio/website
+              - repo_url: https://github.com/vitessio/arewefastyet
+              - repo_url: https://github.com/vitessio/enhancements
+            logo: vitess.svg
+            twitter: https://twitter.com/vitessio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-02-05'
+              incubating: '2018-02-05'
+              graduated: '2019-11-05'
+              dev_stats_url: https://vitess.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/vitess
+              blog_url: https://vitess.io/blog/
+              cncf_tags:
+                - https://github.com/cncf/tag-storage
+              mailing_list_url: https://lists.cncf.io/g/cncf-vitess-users
+              summary_personas: Infrastructure teams
+              summary_tags: Scalable, reliable, MySQL, distributed, cloud-native, kubernetes, cloud, database
+              summary_use_case: Scaling out existing MySQL deployments, or building out internal database solutions for application teams to build products on.
+              summary_business_use_case: Scalability, Reliability, reduce human cost of running databases.
+              summary_release_rate: Every 4 months
+              summary_integration: |
+                Kubernetes Operator, Debezium
+              summary_intro_url: https://www.youtube.com/watch?v=Sny8rITrdvE
+              clomonitor_name: vitess
+              audits:
+                - date: '2019-02-01'
+                  type: security
+                  url: https://vitess.io/files/VIT-01-report.pdf
+                  vendor: Cure53
+                - date: '2021-05-19'
+                  type: fuzzing
+                  url: https://github.com/vitessio/vitess/blob/master/doc/VIT-02-report-fuzzing-audit.pdf
+                  vendor: AdaLogics
+                - date: '2023-06-05'
+                  type: security
+                  url: https://github.com/vitessio/vitess/blob/main/doc/VIT-03-report-security-audit.pdf
+                  vendor: Ada Logics
           - item:
-            description: This is the description of item 8
-            homepage_url: https://cncf.io
-            logo: cncf.svg
+            name: Crunchy Postgres Operator
+            homepage_url: https://www.crunchydata.com
+            repo_url: https://github.com/CrunchyData/postgres-operator
+            logo: crunchy-data.svg
+            crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
+          - item:
+            name: VoltDB
+            description: VoltDB is a high-velocity decisioning engine, powering real-time applications that must react in milliseconds.
+            homepage_url: https://www.voltactivedata.com
+            repo_url: https://github.com/voltdb/voltdb
+            logo: voltdb.svg
+            crunchbase: https://www.crunchbase.com/organization/voltdb
+          - item:
             name: YugabyteDB
+            homepage_url: https://www.yugabyte.com/yugabytedb/
+            repo_url: https://github.com/YugaByte/yugabyte-db
+            logo: yugabytedb.svg
+            crunchbase: https://www.crunchbase.com/organization/yugabyte
       - subcategory:
         name: Analytical
         items:
@@ -167,8 +403,15 @@ landscape:
             name: DuckDB
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: ClickHouse
+            homepage_url: https://clickhouse.com
+            repo_url: https://github.com/ClickHouse/ClickHouse
+            logo: clickhouse.svg
+            twitter: https://twitter.com/clickhousedb
+            crunchbase: https://www.crunchbase.com/organization/clickhouse
       - subcategory:
-        name: Key-Value
+        name: Key Value
         items:
           - item:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -178,39 +421,143 @@ landscape:
             name: BadgerDB
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: DragonflyDB
+            homepage_url: https://dragonflydb.io/
+            repo_url: https://github.com/dragonflydb/dragonfly
+            logo: dragonflydb.svg
+            crunchbase: https://www.crunchbase.com/organization/dragonflydb
+          - item:
+            name: TiKV
+            description: >-
+              A distributed transactional key-value database. Based on the design of Google Spanner and HBase, but simpler to manage and without dependencies on
+              any distributed filesystem
+            homepage_url: https://tikv.org
+            repo_url: https://github.com/tikv/tikv
+            logo: tikv.svg
+            twitter: https://twitter.com/tikvproject
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-08-28'
+              incubating: '2018-08-28'
+              graduated: '2020-09-02'
+              cncf_tags:
+                - https://github.com/cncf/tag-storage
+              dev_stats_url: https://tikv.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#tikv-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/tikv
+              blog_url: https://tikv.org/blog/
+              mailing_list_url: https://tikv.org/community/community/
+              youtube_url: https://www.youtube.com/channel/UCXyuUR4qEm0HLDniz46k6sg
+              summary_personas: Application Developers, ML Engineers, DevOps Engineers, Architects, Platform Engineers, DBA
+              summary_tags: Key-value database,Cloud storage,Transactional,TiDB,Strong consistency,Raft,RocksDB,Titan,Raft-Engine
+              summary_use_case: >-
+                TiKV excels at working with large-scale data by supporting petabyte-scale deployments spanning trillions of rows. It aims to solve the technical
+                issue of scaling and reliably storing data in distributed systems that require  high performance and strong consistency. TiKV addresses the
+                technical pain points of traditional databases by offering  horizontal scalability, strong consistency, high availability, and fault tolerance.
+                It's particularly useful for  building real-time data processing apps.
+              summary_business_use_case: >-
+                TiKV provides a scalable, reliable, and easy-to-use storage engine for building distributed systems.  It helps organizations improve the
+                performance, reliability, and availability of their systems.  TiKV helps organizations reduce risk by providing strong consistency. It helps
+                ensure data integrity and accuracy.  TiKV helps organizations increase their responsiveness to customer demand by allowing them to scale their
+                systems horizontally  as needed to handle increasing amounts of data and workload.
+              summary_release_rate: Per month
+              summary_integration: >-
+                TiKV provides both raw and ACID-compliant transactional key-value API, which is widely used in online serving services,  such as the metadata
+                storage system for object storage service, the storage system for recommendation systems,  the online feature store, etc. TiKV is also widely
+                used as the storage layer for database management systems, for example, TiDB, Zetta, Tidis, Titan, and JuiceFS. TiKV can also be deployed on
+                Kubernetes via TiDB Operator and monitored by Prometheus.
+              summary_intro_url: ''
+              clomonitor_name: tikv
+              audits:
+                - date: '2020-03-05'
+                  type: security
+                  url: https://tikv.org/blog/TiKV-Security-Audit.pdf
+                  vendor: Cure53
       - subcategory:
         name: Graph
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
             name: Dgraph
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            homepage_url: https://dgraph.io/
+            repo_url: https://github.com/dgraph-io/dgraph
+            logo: dgraph.svg
+            crunchbase: https://www.crunchbase.com/organization/dgraph
+          - item:
+            name: Memgraph
+            homepage_url: https://memgraph.com/
+            repo_url: https://github.com/memgraph/memgraph
+            logo: dgraph.svg
+            description: Open-source graph database, built for real-time streaming data, compatible with Neo4j.
       - subcategory:
         name: Column Family
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: ScyllaDB  
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            name: Scylla
+            homepage_url: https://www.scylladb.com/
+            repo_url: https://github.com/scylladb/scylla
+            logo: scylla.svg
+            twitter: https://twitter.com/ScyllaDB
+            crunchbase: https://www.crunchbase.com/organization/scylladb
+          - item:
+            name: Cassandra
+            homepage_url: https://cassandra.apache.org/_/index.html
+            repo_url: https://github.com/apache/cassandra
+            logo: cassandra.svg
+            twitter: https://twitter.com/cassandra
+            crunchbase: https://www.crunchbase.com/organization/apache
       - subcategory:
         name: ML
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: qdrant
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            name: Qdrant
+            description: Vector Database for the next generation of AI applications.
+            homepage_url: https://qdrant.tech
+            repo_url: https://github.com/qdrant/qdrant
+            logo: qdrant.svg
+            crunchbase: https://www.crunchbase.com/organization/qdrant
+            extra:
+              youtube_url: https://www.youtube.com/channel/UC6ftm8PwH1RU_LM1jwG0LQA
+          - item:
+            name: MindsDB
+            description: By connecting your database with popular AI frameworks, MindsDB radically simplifies the process of applying machine learning to your end-user applications.
+            homepage_url: https://mindsdb.com/
+            repo_url: https://github.com/mindsdb/mindsdb
+            logo: qdrant.svg
+          - item:
+            name: Meilisearch
+            description: A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
+            homepage_url: https://www.meilisearch.com/
+            repo_url: https://github.com/meilisearch/meilisearch
+            logo: qdrant.svg
+          - item:
+            name: TileDB
+            description: The Universal Storage Engine
+            homepage_url: https://tiledb.com/
+            repo_url: https://github.com/TileDB-Inc/TileDB
+            logo: qdrant.svg
+      - subcategory:
+        name: Time Series
+        items:
+          - item:
+            name: GreptimeDB
+            description: GreptimeDB is an open-source, cloud-native time series database which also has powerful analytical features
+            homepage_url: https://greptime.com/
+            repo_url: https://github.com/grepTimeTeam/greptimedb
+            logo: greptimedb.svg
+            crunchbase: https://www.crunchbase.com/organization/greptime
+          - item:
+            name: InfluxData
+            homepage_url: https://www.influxdata.com/
+            repo_url: https://github.com/influxdata/influxdb
+            logo: influxdata.svg
+            crunchbase: https://www.crunchbase.com/organization/influxdb
+          - item:
+            name: M3
+            homepage_url: https://www.m3db.io/
+            repo_url: https://github.com/m3db/m3
+            logo: m3.svg
+            crunchbase: https://www.crunchbase.com/organization/uber
   - category:
     name: Infrastructure
     subcategories:
@@ -227,7 +574,7 @@ landscape:
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
       - subcategory:
-        name: Service Mesh
+        name: Service Mesh & API Gateway
         items:
           - item:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -237,17 +584,27 @@ landscape:
             name: Istio
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            name: Kong
+            homepage_url: https://konghq.com/
+            repo_url: https://github.com/Kong/kong
+            logo: kong.svg
+            crunchbase: https://www.crunchbase.com/organization/konghq
       - subcategory:
         name: Storage
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
             name: MinIO
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            homepage_url: https://min.io/
+            repo_url: https://github.com/minio/minio
+            logo: min-io.svg
+            crunchbase: https://www.crunchbase.com/organization/minio-inc
+          - item:
+            description: The Koor Data Control Center is a monitoring, management and automation platform that makes it easy to operate large-scale data stores yourself. This is your data control plane for Rook Ceph data storage.
+            homepage_url: https://about.koor.tech/
+            logo: cncf.svg
+            name: KOOR
+            repo_url: https://github.com/koor-tech/koor
       - subcategory:
         name: Coordination & Service Discovery
         items:
@@ -263,13 +620,87 @@ landscape:
         name: Streaming & Messaging
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
             name: NATS
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            description: >-
+              NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True
+              multi-tenancy makes NATS ideal for SaaS and self-healing and scaling technology allows for topology changes anytime with zero downtime.
+            homepage_url: https://nats.io/
+            project: incubating
+            repo_url: https://github.com/nats-io/nats-server
+            url_for_bestpractices: https://github.com/nats-io
+            additional_repos:
+              - repo_url: https://github.com/nats-io/nats.go
+              - repo_url: https://github.com/nats-io/nats.js
+              - repo_url: https://github.com/nats-io/nats.py
+              - repo_url: https://github.com/nats-io/nats.java
+              - repo_url: https://github.com/nats-io/nats.net
+              - repo_url: https://github.com/nats-io/nats.c
+              - repo_url: https://github.com/nats-io/nats.rs
+              - repo_url: https://github.com/nats-io/nats.deno
+              - repo_url: https://github.com/nats-io/k8s
+              - repo_url: https://github.com/nats-io/nats-surveyor
+              - repo_url: https://github.com/nats-io/natscli
+              - repo_url: https://github.com/nats-io/nats-architecture-and-design
+              - repo_url: https://github.com/nats-io/nats.docs
+              - repo_url: https://github.com/nats-io/nack
+              - repo_url: https://github.com/nats-io/nats-top
+              - repo_url: https://github.com/nats-io/terraform-provider-jetstream
+              - repo_url: https://github.com/nats-io/jetstream-gh-action
+            logo: nats.svg
+            twitter: https://twitter.com/nats_io
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-03-15'
+              incubating: '2018-03-15'
+              dev_stats_url: https://nats.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#nats-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/nats.io
+              mailing_list_url: https://nats.io/blog/
+              slack_url: >-
+                https://natsio.slack.com/join/shared_invite/enQtMzE2NDkxNDI2NTE1LTc5ZDEzYTkwYWZkYWQ5YjY1MzBjMWZmYzA5OGQxMzlkMGQzMjYxNGM3MWYxMjNiYmNjNzIwMTVjMWE2ZDgxZGM
+              summary_personas: Developers, Architects, Engineers, Platform teams, Cloud Architects
+              summary_tags: Edge, Muli-cloud, Messaging, Streaming Data, PubSub, KeyValue, Microservices, Kubernetes
+              summary_use_case: >
+                The NATS Server acts as a central nervous system for building distributed applications. Client APIs are provided in over 40 languages and
+                frameworks including Go, Java, JavaScript/TypeScript, Python, C, .Net, and Rust. NATS supports multiple microservices patterns including PubSub,
+                Request-Reply, KeyValue and Object store via a simple API.
+              summary_business_use_case: >-
+                NATS is used to develop & deploy globally distributed Edge & Multi-cloud applications as part of a digital transformation or modernization
+                initiative. Users may deploy NATS as part of a private cloud, hybrid , or SaaS model. Applications can be developed locally and then be scaled
+                from single node, to clusters, to global superclusters independently of cloud providers, geography or requirements for additional infrastructure
+                such as load balancers, firewalls, etc... All with a zero trust security model and integrated multi-tenant platform capabilities
+              summary_release_rate: null
+              summary_integrations: Docker, Kubernetes, K3S, WASMCloud, CloudEvents, Helm, Argo, DAPR, Prometheus, Benthos
+              summary_intro_url: https://rethink.synadia.com/episodes/1/
+              clomonitor_name: nats
+              audits:
+                - date: '2019-02-06'
+                  type: security
+                  url: https://github.com/nats-io/nats-general/blob/master/reports/Cure53_NATS_Audit.pdf
+                  vendor: Cure53
+          - item:
+            name: Tremor
+            homepage_url: https://www.tremor.rs/
+            repo_url: https://github.com/tremor-rs/tremor-runtime
+            url_for_bestpractices: https://github.com/tremor-rs
+            logo: tremor.svg
+            twitter: https://twitter.com/TremorDEBS
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-09-08'
+              annual_review_url: https://github.com/cncf/toc/pull/949
+              annual_review_date: '2022-10-19'
+              dev_stats_url: https://tremor.devstats.cncf.io/
+              clomonitor_name: tremor
+          - item:
+            name: Memphis
+            homepage_url: https://memphis.dev
+            repo_url: https://github.com/memphisdev/memphis-broker
+            url_for_bestpractices: https://github.com/memphisdev
+            logo: memphis.svg
+            crunchbase: https://www.crunchbase.com/organization/memphis-dev
+            extra:
+              discord_url: https://discord.gg/zq7Wx8akSX
       - subcategory:
         name: Runtime
         items:
@@ -292,6 +723,22 @@ landscape:
             name: Prometheus
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
+      - subcategory:
+        name: Testing
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            name: k6
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            description: Reliability testing and Chaos Engineering tools to drive real availability improvements at enterprise scale.
+            homepage_url: https://www.gremlin.com/
+            logo: cncf.svg
+            name: Germlin
       - subcategory:
         name: Tracing
         items:
