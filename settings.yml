@@ -60,12 +60,13 @@ images:
 #   color5: <COLOR6>  # Categories and subcategories frames (even)
 #
 colors:
-  color1: "rgba(0, 107, 204, 1)"
-  color2: "rgba(255, 0, 170, 1)"
-  color3: "rgba(96, 149, 214, 1)"
-  color4: "rgba(0, 42, 81, 0.7)"
-  color5: "rgba(1, 107, 204, 0.7)"
-  color6: "rgba(0, 42, 81, 0.7)"
+  color1: "rgba(0, 74, 142, 1.0)"    # 按鈕、組別、鏈接
+  color2: "rgba(178, 0, 118, 1.0)"   # 一些突出的項目，如過濾按鈕、搜索圖標
+  color3: "rgba(67, 104, 149, 1.0)"  # 參與統計條、旋轉器、模態標題
+  color4: "rgba(0, 29, 56, 0.7)"     # 過濾器中的類別標題、過濾器模式中的字段集
+  color5: "rgba(0, 74, 142, 0.7)"    # 類別和子類別框架 (奇數)
+  color6: "rgba(0, 29, 56, 0.7)"     # 類別和子類別框架 (偶數)
+
 
 # Featured items (optional)
 #
@@ -128,10 +129,10 @@ groups:
       - Materials
       - Databases
       - Taste
-      - Go
-      - Research
+      # - Go
+      # - Research
       - Infrastructure
-      - Selected Projects
+      # - Selected Projects
   # - name: Only category 2
   #   categories:
   #     - Category 2
