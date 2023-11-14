@@ -38,6 +38,18 @@ landscape:
             name: RL Course by David Silver
             # project: graduated
             twitter: https://twitter.com/GoogleDeepMind
+          - item:
+            description: An educational OLAP database system
+            homepage_url: https://github.com/risinglightdb/risinglight
+            repo_url: https://github.com/risinglightdb/risinglight
+            logo: risinglight.svg
+            name: RisingLight
+          - item:
+            description: Distributed SQL database in Rust, written as a learning project
+            homepage_url: https://github.com/erikgrinaker/toydb
+            repo_url: https://github.com/erikgrinaker/toydb
+            logo: toydb.svg
+            name: ToyDB
       # - subcategory:
       #   name: Documents
       #   items:
@@ -277,7 +289,7 @@ landscape:
             description: 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable and developer-first.
             homepage_url: https://strapi.io/
             logo: strapi.svg
-            repo_url: https://github.com/strapi/strapi          
+            repo_url: https://github.com/strapi/strapi
   - category:
     name: Go
     subcategories:
@@ -355,9 +367,9 @@ landscape:
             twitter: https://twitter.com/vitessio
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2018-02-05'
-              incubating: '2018-02-05'
-              graduated: '2019-11-05'
+              accepted: "2018-02-05"
+              incubating: "2018-02-05"
+              graduated: "2019-11-05"
               dev_stats_url: https://vitess.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/vitess
@@ -375,15 +387,15 @@ landscape:
               summary_intro_url: https://www.youtube.com/watch?v=Sny8rITrdvE
               clomonitor_name: vitess
               audits:
-                - date: '2019-02-01'
+                - date: "2019-02-01"
                   type: security
                   url: https://vitess.io/files/VIT-01-report.pdf
                   vendor: Cure53
-                - date: '2021-05-19'
+                - date: "2021-05-19"
                   type: fuzzing
                   url: https://github.com/vitessio/vitess/blob/master/doc/VIT-02-report-fuzzing-audit.pdf
                   vendor: AdaLogics
-                - date: '2023-06-05'
+                - date: "2023-06-05"
                   type: security
                   url: https://github.com/vitessio/vitess/blob/main/doc/VIT-03-report-security-audit.pdf
                   vendor: Ada Logics
@@ -417,6 +429,12 @@ landscape:
             repo_url: https://github.com/superfly/litefs
             description: FUSE-based file system for replicating SQLite databases across a cluster of machines
             logo: flyio.svg
+          - item:
+            name: TigerBeetle
+            homepage_url: https://tigerbeetle.com/
+            repo_url: https://github.com/tigerbeetle/tigerbeetle
+            description: The distributed financial transactions database designed for mission critical safety and performance
+            logo: tigerbeetle.svg
       - subcategory:
         name: Analytical
         items:
@@ -433,17 +451,29 @@ landscape:
             logo: clickhouse.svg
             twitter: https://twitter.com/clickhousedb
             crunchbase: https://www.crunchbase.com/organization/clickhouse
-          - item: 
+          - item:
             description: The data warehouse for operational workloads.
             homepage_url: https://materialize.com/
             logo: materialize.svg
             name: Materialize
             repo_url: https://github.com/MaterializeInc/materialize
-          - item: 
+          - item:
             description: Tile38 is an open source (MIT licensed), in-memory geolocation data store, spatial index, and realtime geofencing server. It supports a variety of object types including lat/lon points, bounding boxes, XYZ tiles, Geohashes, and GeoJSON.
             homepage_url: https://tile38.com/
             logo: tile38.svg
             name: TILE38
+          - item:
+            description: The streaming database redefining stream processing 🌊. PostgreSQL-compatible, highly performant, scalable, elastic, and reliable ☁️
+            homepage_url: https://risingwave.com/
+            logo: risingwave.svg
+            repo_url: https://github.com/risingwavelabs/risingwave
+            name: RisingWave
+          - item:
+            description: ❄️ Coolest database around 🧊 Embeddable column database written in Go
+            homepage_url: https://www.polarsignals.com/
+            logo: frostdb.svg
+            repo_url: https://github.com/polarsignals/frostdb
+            name: FrostDB
       - subcategory:
         name: Key Value
         items:
@@ -476,9 +506,9 @@ landscape:
             twitter: https://twitter.com/tikvproject
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2018-08-28'
-              incubating: '2018-08-28'
-              graduated: '2020-09-02'
+              accepted: "2018-08-28"
+              incubating: "2018-08-28"
+              graduated: "2020-09-02"
               cncf_tags:
                 - https://github.com/cncf/tag-storage
               dev_stats_url: https://tikv.devstats.cncf.io/
@@ -505,10 +535,10 @@ landscape:
                 storage system for object storage service, the storage system for recommendation systems,  the online feature store, etc. TiKV is also widely
                 used as the storage layer for database management systems, for example, TiDB, Zetta, Tidis, Titan, and JuiceFS. TiKV can also be deployed on
                 Kubernetes via TiDB Operator and monitored by Prometheus.
-              summary_intro_url: ''
+              summary_intro_url: ""
               clomonitor_name: tikv
               audits:
-                - date: '2020-03-05'
+                - date: "2020-03-05"
                   type: security
                   url: https://tikv.org/blog/TiKV-Security-Audit.pdf
                   vendor: Cure53
@@ -527,6 +557,18 @@ landscape:
             repo_url: https://github.com/memgraph/memgraph
             logo: memgraph.svg
             description: Open-source graph database, built for real-time streaming data, compatible with Neo4j.
+          - item:
+            name: EdgeDB
+            homepage_url: https://www.edgedb.com/
+            repo_url: https://github.com/edgedb/edgedb
+            logo: edgedb.svg
+            description: A graph-relational database with declarative schema, built-in migration system, and a next-generation query language
+          - item:
+            name: SurrealDB
+            repo_url: https://github.com/surrealdb/surrealdb
+            homepage_url: https://surrealdb.com/
+            description: A scalable, distributed, collaborative, document-graph database, for the realtime web
+            logo: surrealdb.svg
       - subcategory:
         name: Column Family
         items:
@@ -598,6 +640,18 @@ landscape:
             homepage_url: https://www.trychroma.com/
             repo_url: https://github.com/chroma-core/chroma
             logo: chroma.svg
+          - item:
+            name: FeatureBase
+            description: A crazy fast analytical database, built on bitmaps. Perfect for ML applications
+            homepage_url: https://docs.featurebase.com/
+            repo_url: https://github.com/featurebasedb/featurebase
+            logo: featurebase.svg
+          - item:
+            name: FeatureForm
+            description: The Virtual Feature Store. Turn your existing data infrastructure into a feature store
+            homepage_url: https://www.featureform.com/
+            repo_url: https://github.com/featureform/featureform
+            logo: featureform.svg
       - subcategory:
         name: Time Series
         items:
@@ -645,9 +699,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
             extra:
-              accepted: '2016-03-10'
-              incubating: '2016-03-10'
-              graduated: '2018-03-06'
+              accepted: "2016-03-10"
+              incubating: "2016-03-10"
+              graduated: "2018-03-06"
               cncf_tags:
                 - https://github.com/cncf/tag-runtime
               dev_stats_url: https://k8s.devstats.cncf.io/
@@ -659,11 +713,11 @@ landscape:
               youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
               clomonitor_name: kubernetes
               audits:
-                - date: '2019-08-06'
+                - date: "2019-08-06"
                   type: security
                   url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2019/findings
                   vendor: Trail of Bits and Atredis Partners
-                - date: '2023-04-19'
+                - date: "2023-04-19"
                   type: security
                   url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
                   vendor: NCC Group
@@ -680,9 +734,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
             extra:
-              accepted: '2022-09-30'
-              incubating: '2022-09-30'
-              graduated: '2023-07-12'
+              accepted: "2022-09-30"
+              incubating: "2022-09-30"
+              graduated: "2023-07-12"
               cncf_tags:
                 - https://github.com/cncf/tag-network
               dev_stats_url: https://istio.devstats.cncf.io/
@@ -701,7 +755,7 @@ landscape:
               youtube_url: https://www.youtube.com/c/Istio
               clomonitor_name: istio
               audits:
-                - date: '2023-01-30'
+                - date: "2023-01-30"
                   type: security
                   url: https://istio.io/latest/blog/2023/ada-logics-security-assessment/Istio%20audit%20report%20-%20ADA%20Logics%20-%202023-01-30%20-%20v1.0.pdf
                   vendor: ADA Logics
@@ -737,9 +791,9 @@ landscape:
             twitter: https://twitter.com/etcdio
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2018-12-11'
-              incubating: '2018-12-11'
-              graduated: '2020-11-24'
+              accepted: "2018-12-11"
+              incubating: "2018-12-11"
+              graduated: "2020-11-24"
               cncf_tags:
                 - https://github.com/cncf/tag-storage
               dev_stats_url: https://etcd.devstats.cncf.io/
@@ -747,14 +801,14 @@ landscape:
               stack_overflow_url: https://stackoverflow.com/questions/tagged/etcd
               mailing_list_url: https://groups.google.com/forum/?hl=en#!forum/etcd-dev
               slack_url: http://slack.k8s.io/
-              chat_channel: '#etcd'
+              chat_channel: "#etcd"
               clomonitor_name: etcd
               audits:
-                - date: '2020-08-05'
+                - date: "2020-08-05"
                   type: security
                   url: https://github.com/etcd-io/etcd/blob/master/security/SECURITY_AUDIT.pdf
                   vendor: Trail of Bits
-                - date: '2022-03-11'
+                - date: "2022-03-11"
                   type: fuzzing
                   url: https://github.com/etcd-io/etcd/blob/main/security/FUZZING_AUDIT_2022.PDF
                   vendor: ADA Logics
@@ -806,8 +860,8 @@ landscape:
             twitter: https://twitter.com/nats_io
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2018-03-15'
-              incubating: '2018-03-15'
+              accepted: "2018-03-15"
+              incubating: "2018-03-15"
               dev_stats_url: https://nats.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#nats-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/nats.io
@@ -830,7 +884,7 @@ landscape:
               summary_intro_url: https://rethink.synadia.com/episodes/1/
               clomonitor_name: nats
               audits:
-                - date: '2019-02-06'
+                - date: "2019-02-06"
                   type: security
                   url: https://github.com/nats-io/nats-general/blob/master/reports/Cure53_NATS_Audit.pdf
                   vendor: Cure53
@@ -843,9 +897,9 @@ landscape:
             twitter: https://twitter.com/TremorDEBS
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2020-09-08'
+              accepted: "2020-09-08"
               annual_review_url: https://github.com/cncf/toc/pull/949
-              annual_review_date: '2022-10-19'
+              annual_review_date: "2022-10-19"
               dev_stats_url: https://tremor.devstats.cncf.io/
               clomonitor_name: tremor
           - item:
@@ -876,7 +930,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
             extra:
-              accepted: '2021-07-13'
+              accepted: "2021-07-13"
               clomonitor_name: krustlet
           - item:
             name: Firecracker
@@ -895,9 +949,9 @@ landscape:
             twitter: https://twitter.com/PrometheusIO
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2016-05-09'
-              incubating: '2016-05-09'
-              graduated: '2018-08-09'
+              accepted: "2016-05-09"
+              incubating: "2016-05-09"
+              graduated: "2018-08-09"
               cncf_tags:
                 - https://github.com/cncf/tag-observability
               dev_stats_url: https://prometheus.devstats.cncf.io/
@@ -907,23 +961,23 @@ landscape:
               mailing_list_url: https://prometheus.io/community/
               youtube_url: https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA
               slack_url: https://libera.chat/
-              chat_channel: '#prometheus'
+              chat_channel: "#prometheus"
               summary_personas: Cluster Administrators, Developers, SREs, Platform Engineers, Network Engineers
               summary_tags: monitoring, alerting, observability, instrumentation
               summary_use_case: metrics-based monitoring and alerting
-              summary_business_use_case: ''
+              summary_business_use_case: ""
               summary_release_rate: every 6 weeks for prometheus/prometheus
               summary_integrations: >-
                 See [exporters](https://prometheus.io/docs/instrumenting/exporters/) and [clientlibs](https://prometheus.io/docs/instrumenting/clientlibs/) plus
                 many service discoveries.
-              summary_intro_url: ''
+              summary_intro_url: ""
               clomonitor_name: prometheus
               audits:
-                - date: '2018-06-11'
+                - date: "2018-06-11"
                   type: security
                   url: https://prometheus.io/assets/downloads/2018-06-11--cure53_security_audit.pdf
                   vendor: Cure53
-                - date: '2020-07-21'
+                - date: "2020-07-21"
                   type: security
                   url: https://prometheus.io/assets/downloads/2020-07-21--cure53_security_audit_node_exporter.pdf
                   vendor: Cure53
@@ -965,9 +1019,9 @@ landscape:
             twitter: https://twitter.com/JaegerTracing
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2017-09-13'
-              incubating: '2017-09-13'
-              graduated: '2019-10-31'
+              accepted: "2017-09-13"
+              incubating: "2017-09-13"
+              graduated: "2019-10-31"
               cncf_tags:
                 - https://github.com/cncf/tag-observability
               dev_stats_url: https://jaeger.devstats.cncf.io/
@@ -976,7 +1030,7 @@ landscape:
               blog_url: https://medium.com/jaegertracing/
               mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
               slack_url: https://slack.cncf.io/
-              chat_channel: '#jaeger'
+              chat_channel: "#jaeger"
               summary_personas: Developers, SREs, Platform Engineers, Network Engineers
               summary_tags: monitoring, observability, tracing
               summary_use_case: tracing-based observability for distributed systems
@@ -985,10 +1039,10 @@ landscape:
                 optimization.
               summary_release_rate: monthly
               summary_integrations: OpenTelemetry, Prometheus, multiple [storage backends](https://www.jaegertracing.io/docs/latest/deployment/#span-storage-backends).
-              summary_intro_url: ''
+              summary_intro_url: ""
               clomonitor_name: jaeger
               audits:
-                - date: '2019-05-04'
+                - date: "2019-05-04"
                   type: security
                   url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
                   vendor: Cure53
@@ -1026,9 +1080,9 @@ landscape:
             twitter: https://twitter.com/argoproj
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: '2020-03-26'
-              incubating: '2020-03-26'
-              graduated: '2022-12-06'
+              accepted: "2020-03-26"
+              incubating: "2020-03-26"
+              graduated: "2022-12-06"
               cncf_tags:
                 - https://github.com/cncf/tag-app-delivery
               dev_stats_url: https://argo.devstats.cncf.io/
@@ -1051,10 +1105,10 @@ landscape:
                 pipelines, orchestrating highly parallel jobs without the overhead of legacy VMs or server environments, defining multiple dependencies from
                 various event sources like webhooks, S3, schedules, streams, and triggering Kubernetes objects after successful event dependencies resolution.
               summary_release_rate: 7-14 days
-              summary_intro_url: 'Argo Workflows: https://youtu.be/TZgLkCFQ2tk, Argo CD: https://youtu.be/aWDIQMbp1cc'
+              summary_intro_url: "Argo Workflows: https://youtu.be/TZgLkCFQ2tk, Argo CD: https://youtu.be/aWDIQMbp1cc"
               clomonitor_name: argo
               audits:
-                - date: '2022-02-28'
+                - date: "2022-02-28"
                   type: fuzzing
                   url: https://github.com/argoproj/argoproj/blob/dd7cae43d81c5a11f21ff4ea0a4afadcae4799c7/docs/audit_fuzzer_adalogics_2022.pdf
                   vendor: ADA Logics
@@ -1094,4 +1148,3 @@ landscape:
             name: Apple Swift
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
-      
