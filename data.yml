@@ -50,6 +50,12 @@ landscape:
             repo_url: https://github.com/erikgrinaker/toydb
             logo: toydb.svg
             name: ToyDB
+          - item:
+            description: This may not be the best deep learning framework, but it is a deep learning framework. Due to its extreme simplicity, it aims to be the easiest framework to add new accelerators to, with support for both inference and training. If XLA is CISC, tinygrad is RISC.
+            homepage_url: https://tinygrad.org/
+            repo_url: https://github.com/tinygrad/tinygrad
+            logo: tinygrad.svg
+            name: Tinygrad
       # - subcategory:
       #   name: Documents
       #   items:
@@ -652,6 +658,12 @@ landscape:
             homepage_url: https://www.featureform.com/
             repo_url: https://github.com/featureform/featureform
             logo: featureform.svg
+          - item:
+            name: Vald
+            description: Vald. A Highly Scalable Distributed Vector Search Engine
+            homepage_url: https://vald.vdaas.org/
+            repo_url: https://github.com/vdaas/vald
+            logo: vald.svg
       - subcategory:
         name: Time Series
         items:
@@ -674,6 +686,12 @@ landscape:
             repo_url: https://github.com/m3db/m3
             logo: m3.svg
             crunchbase: https://www.crunchbase.com/organization/uber
+          - item:
+            name: Timescale
+            homepage_url: https://www.timescale.com/
+            repo_url: https://github.com/timescale/timescaledb
+            logo: timescaledb.svg
+            description: An open-source time-series SQL database optimized for fast ingest and complex queries. Packaged as a PostgreSQL extension.
       - subcategory:
         name: Data Ops
         items:
@@ -1006,7 +1024,7 @@ landscape:
           - item:
             description: Reliability testing and Chaos Engineering tools to drive real availability improvements at enterprise scale.
             homepage_url: https://www.gremlin.com/
-            logo: cncf.svg
+            logo: gemlin.svg
             name: Germlin
       - subcategory:
         name: Tracing
