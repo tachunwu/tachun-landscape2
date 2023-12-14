@@ -23,7 +23,8 @@ foundation: Tachun Landscape
 #
 images:
   footer_logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
-  header_logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
+  header_logo: "https://raw.githubusercontent.com/tachunwu/tachun-landscape2/main/artwork/tachun.svg"
+  # header_logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
 
 # Categories (optional)
 #
@@ -60,13 +61,12 @@ images:
 #   color5: <COLOR6>  # Categories and subcategories frames (even)
 #
 colors:
-  color1: "rgba(0, 74, 142, 1.0)"    # 按鈕、組別、鏈接
-  color2: "rgba(178, 0, 118, 1.0)"   # 一些突出的項目，如過濾按鈕、搜索圖標
-  color3: "rgba(67, 104, 149, 1.0)"  # 參與統計條、旋轉器、模態標題
-  color4: "rgba(0, 29, 56, 0.7)"     # 過濾器中的類別標題、過濾器模式中的字段集
-  color5: "rgba(0, 74, 142, 0.7)"    # 類別和子類別框架 (奇數)
-  color6: "rgba(0, 29, 56, 0.7)"     # 類別和子類別框架 (偶數)
-
+  color1: "rgba(0, 74, 142, 1.0)" # 按鈕、組別、鏈接
+  color2: "rgba(178, 0, 118, 1.0)" # 一些突出的項目，如過濾按鈕、搜索圖標
+  color3: "rgba(67, 104, 149, 1.0)" # 參與統計條、旋轉器、模態標題
+  color4: "rgba(0, 29, 56, 0.7)" # 過濾器中的類別標題、過濾器模式中的字段集
+  color5: "rgba(0, 74, 142, 0.7)" # 類別和子類別框架 (奇數)
+  color6: "rgba(0, 29, 56, 0.7)" # 類別和子類別框架 (偶數)
 
 # Featured items (optional)
 #
@@ -188,7 +188,6 @@ social_networks:
   # slack: "https://slack.cncf.io/"
   # twitch: "https://www.twitch.tv/cloudnativefdn"
   # twitter: "https://twitter.com/cloudnativefdn"
-
 # TAGs (optional)
 #
 # Projects items can specify which TAG owns them in the `landscape.yml` file

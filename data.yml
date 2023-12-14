@@ -795,7 +795,7 @@ landscape:
           - item:
             description: The Koor Data Control Center is a monitoring, management and automation platform that makes it easy to operate large-scale data stores yourself. This is your data control plane for Rook Ceph data storage.
             homepage_url: https://about.koor.tech/
-            logo: cncf.svg
+            logo: koor.svg
             name: KOOR
             repo_url: https://github.com/koor-tech/koor
       - subcategory:
